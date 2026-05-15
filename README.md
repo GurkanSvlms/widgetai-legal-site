@@ -2,10 +2,9 @@
 
 Static legal pages for GitHub Pages.
 
-Before publishing, replace `support@example.com` in:
+Support email:
 
-- `privacy.html`
-- `support.html`
+widgetai.support@gmail.com
 
 Terms of Use uses Apple's Standard EULA:
 
