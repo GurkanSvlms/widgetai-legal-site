@@ -7,22 +7,49 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <a class="back" href="index.html">WidgetAI</a>
-    <h1>Support</h1>
-    <p class="updated">Need help with WidgetAI?</p>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="WidgetAI home">
+      <img class="brand-icon" src="assets/appicon.png" alt="" width="36" height="36">
+      <span>WidgetAI</span>
+    </a>
+    <nav class="top-nav" aria-label="Site pages">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#widgets">Widgets</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </header>
 
-    <h2>Contact</h2>
-    <p>Email support at <a href="mailto:widgetai.support@gmail.com">widgetai.support@gmail.com</a>.</p>
+  <main class="page-shell">
+    <section class="page-hero">
+      <img class="page-icon" src="assets/appicon.png" alt="WidgetAI app icon" width="72" height="72">
+      <p class="eyebrow">Support</p>
+      <h1>Help for your WidgetAI setup.</h1>
+      <p class="section-copy">Questions about widgets, subscriptions, AI meal scans, data, or account settings can start here.</p>
+    </section>
 
-    <h2>Subscriptions</h2>
-    <p>Subscriptions, refunds, and purchase history are managed by Apple through your Apple ID. Open the App Store account settings to manage or cancel a subscription.</p>
-
-    <h2>Privacy and Data</h2>
-    <p>WidgetAI stores most app data locally on your device. You can remove local app data by deleting the app, or use in-app export and restore tools where available.</p>
-
-    <h2>AI and Nutrition</h2>
-    <p>AI responses and meal scan results are estimates. Review results before saving them and do not rely on them as medical advice.</p>
+    <section class="info-grid" aria-label="Support topics">
+      <article class="info-card work-card">
+        <span>Contact</span>
+        <h2>Email support</h2>
+        <p>Reach us at <a href="mailto:widgetai.support@gmail.com">widgetai.support@gmail.com</a>.</p>
+      </article>
+      <article class="info-card routine-card">
+        <span>Subscriptions</span>
+        <h2>Apple manages billing</h2>
+        <p>Subscriptions, refunds, and purchase history are managed by Apple through your Apple ID and App Store account settings.</p>
+      </article>
+      <article class="info-card nutrition-card">
+        <span>Privacy and data</span>
+        <h2>Local-first records</h2>
+        <p>WidgetAI stores most app data locally. You can remove local app data by deleting the app, or use export and restore tools where available.</p>
+      </article>
+      <article class="info-card gold-card">
+        <span>AI and nutrition</span>
+        <h2>Review estimates</h2>
+        <p>AI responses and meal scan results are estimates. Review results before saving them and do not rely on them as medical advice.</p>
+      </article>
+    </section>
   </main>
 </body>
 </html>
