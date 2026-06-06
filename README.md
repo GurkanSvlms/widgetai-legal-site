@@ -1,6 +1,10 @@
-# WidgetAI Legal Site
+# Daily Planner: Work Habits Legal Site
 
 Static legal pages for GitHub Pages.
+
+Supported site languages match the app:
+
+English, Turkish, German, Spanish, French, Italian, Portuguese (Brazil).
 
 Support email:
 

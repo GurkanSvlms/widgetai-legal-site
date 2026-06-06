@@ -1,128 +1,131 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-page="home">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="WidgetAI is an AI life planner for tasks, habits, nutrition, routines, and premium iOS widgets.">
-  <title>WidgetAI - AI Life Planner</title>
+  <meta name="description" content="Daily Planner: Work Habits is an AI life planner for tasks, habits, nutrition, routines, and premium iOS widgets.">
+  <title>Daily Planner: Work Habits</title>
+  <link rel="icon" href="assets/appicon.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="i18n.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="WidgetAI home">
+    <a class="brand" href="index.html" aria-label="Daily Planner: Work Habits home">
       <img class="brand-icon" src="assets/appicon.png" alt="" width="36" height="36">
-      <span>WidgetAI</span>
+      <span data-i18n="common.brandShort">Daily Planner</span>
     </a>
     <nav class="top-nav" aria-label="Site pages">
-      <a href="#features">Features</a>
-      <a href="#widgets">Widgets</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="support.html">Support</a>
+      <a href="#features" data-i18n="common.features">Features</a>
+      <a href="#widgets" data-i18n="common.widgets">Widgets</a>
+      <a href="privacy.html" data-i18n="common.privacy">Privacy</a>
+      <a href="support.html" data-i18n="common.support">Support</a>
+      <select class="language-select" data-language-select aria-label="Language"></select>
     </nav>
   </header>
 
   <main>
     <section class="home-hero">
       <div class="hero-copy">
-        <img class="hero-icon" src="assets/appicon.png" alt="WidgetAI app icon" width="92" height="92">
-        <p class="eyebrow">AI Life Planner for iPhone</p>
-        <h1>WidgetAI</h1>
-        <p class="hero-lede">A vivid daily command center for work, routines, meals, water, sleep, AI guidance, and premium iPhone widgets.</p>
+        <img class="hero-icon" src="assets/appicon.png" alt="Daily Planner app icon" width="92" height="92">
+        <p class="eyebrow" data-i18n="home.eyebrow">AI daily planner for iPhone</p>
+        <h1 data-i18n="home.title">Daily Planner: Work Habits</h1>
+        <p class="hero-lede" data-i18n="home.lede">A focused daily command center for tasks, routines, meals, water, sleep, AI guidance, and premium iPhone widgets.</p>
         <div class="hero-actions" aria-label="Primary links">
-          <a class="button primary" href="#widgets">See Widgets</a>
-          <a class="button secondary" href="support.html">Get Support</a>
+          <a class="button primary" href="#widgets" data-i18n="home.seeWidgets">See Widgets</a>
+          <a class="button secondary" href="support.html" data-i18n="home.getSupport">Get Support</a>
         </div>
       </div>
 
-      <div class="phone-visual" aria-label="WidgetAI app preview">
+      <div class="phone-visual" aria-label="Daily Planner app preview">
         <div class="phone-frame">
           <div class="phone-top"></div>
           <div class="app-panel ai-panel">
-            <span>AI Brief</span>
-            <strong>Today looks balanced.</strong>
-            <p>3 focused tasks, 2 habits, and a lighter dinner target.</p>
+            <span data-i18n="home.briefLabel">Today Brief</span>
+            <strong data-i18n="home.briefTitle">Today looks balanced.</strong>
+            <p data-i18n="home.briefText">3 focused tasks, 2 habits, and a lighter dinner target.</p>
           </div>
           <div class="metric-grid">
             <div>
-              <span>Work</span>
+              <span data-i18n="home.work">Work</span>
               <strong>7</strong>
-              <small>Deep work ready</small>
+              <small data-i18n="home.workMetric">Deep work ready</small>
             </div>
             <div>
-              <span>Routine</span>
+              <span data-i18n="home.routine">Routine</span>
               <strong>82%</strong>
-              <small>Streak protected</small>
+              <small data-i18n="home.routineMetric">Streak protected</small>
             </div>
           </div>
           <div class="app-panel meal-panel">
-            <span>Nutrition</span>
+            <span data-i18n="home.nutrition">Nutrition</span>
             <strong>1,840 kcal</strong>
-            <p>Protein and water goals are on track.</p>
+            <p data-i18n="home.nutritionMetric">Protein and water goals are on track.</p>
           </div>
           <div class="widget-strip">
-            <div><span>Focus</span></div>
-            <div><span>Water</span></div>
-            <div><span>Sleep</span></div>
+            <div><span data-i18n="home.focus">Focus</span></div>
+            <div><span data-i18n="home.water">Water</span></div>
+            <div><span data-i18n="home.sleep">Sleep</span></div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="features" class="section">
-      <p class="eyebrow">Features</p>
-      <h2>Everything follows the app colors.</h2>
+      <p class="eyebrow" data-i18n="common.features">Features</p>
+      <h2 data-i18n="home.featuresTitle">Work, habits, and health follow one daily plan.</h2>
       <div class="feature-grid">
         <article class="feature-card work-card">
-          <span>Work</span>
-          <h3>Daily planning</h3>
-          <p>Tasks, focus blocks, and AI suggestions stay connected in one clear work view.</p>
+          <span data-i18n="home.work">Work</span>
+          <h3 data-i18n="home.workTitle">Work planning</h3>
+          <p data-i18n="home.workText">Tasks, focus blocks, and AI suggestions stay connected in one clear work view.</p>
         </article>
         <article class="feature-card routine-card">
-          <span>Routine</span>
-          <h3>Habits and routines</h3>
-          <p>Recurring routines, habit check-ins, and progress streaks use the same flow as the app.</p>
+          <span data-i18n="home.routine">Routine</span>
+          <h3 data-i18n="home.routineTitle">Habits and routines</h3>
+          <p data-i18n="home.routineText">Recurring routines, habit check-ins, and progress streaks use the same flow as the app.</p>
         </article>
         <article class="feature-card nutrition-card">
-          <span>Nutrition</span>
-          <h3>Meals and body tracking</h3>
-          <p>Meal logging, water, sleep, and AI meal scans stay readable before saving.</p>
+          <span data-i18n="home.nutrition">Nutrition</span>
+          <h3 data-i18n="home.nutritionTitle">Meals and body tracking</h3>
+          <p data-i18n="home.nutritionText">Meal logging, water, sleep, and AI meal scans stay readable before saving.</p>
         </article>
       </div>
     </section>
 
     <section id="widgets" class="section split-section">
       <div>
-        <p class="eyebrow">Widgets</p>
-        <h2>Your plan stays visible outside the app.</h2>
-        <p class="section-copy">Premium widgets mirror the WidgetAI app: work in blue, routines in purple, nutrition in teal, and reward moments in warm gold.</p>
+        <p class="eyebrow" data-i18n="common.widgets">Widgets</p>
+        <h2 data-i18n="home.widgetsTitle">Your plan stays visible outside the app.</h2>
+        <p class="section-copy" data-i18n="home.widgetsText">Premium widgets mirror Daily Planner: work in blue, routines in purple, nutrition in teal, and reward moments in warm gold.</p>
       </div>
       <div class="widget-preview" aria-label="Widget examples">
         <div class="mini-widget tall">
           <img src="assets/appicon.png" alt="" width="44" height="44">
-          <span>Focus</span>
+          <span data-i18n="home.focus">Focus</span>
           <strong>42 min</strong>
         </div>
         <div class="mini-widget">
-          <span>Water</span>
+          <span data-i18n="home.water">Water</span>
           <strong>6/8</strong>
         </div>
         <div class="mini-widget routine-widget">
-          <span>Habits</span>
-          <strong>5 done</strong>
+          <span data-i18n="home.habits">Habits</span>
+          <strong data-i18n="home.habitsMetric">5 done</strong>
         </div>
       </div>
     </section>
 
     <section class="section trust-section">
       <div>
-        <p class="eyebrow">Privacy aware</p>
-        <h2>Personal data stays local whenever possible.</h2>
-        <p class="section-copy">WidgetAI is a personal planning app, so privacy matters. Most app data is stored on your device, Apple handles purchases, and optional permissions are used only for features you enable.</p>
+        <p class="eyebrow" data-i18n="home.privacyEyebrow">Privacy aware</p>
+        <h2 data-i18n="home.privacyTitle">Personal data stays local whenever possible.</h2>
+        <p class="section-copy" data-i18n="home.privacyText">Daily Planner: Work Habits is a personal planning app, so privacy matters. Most app data is stored on your device, Apple handles purchases, and optional permissions are used only for features you enable.</p>
       </div>
       <nav class="legal-links" aria-label="Legal pages">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Use</a>
-        <a href="support.html">Support</a>
+        <a href="privacy.html" data-i18n="common.privacyPolicy">Privacy Policy</a>
+        <a href="terms.html" data-i18n="common.terms">Terms of Use</a>
+        <a href="support.html" data-i18n="common.support">Support</a>
       </nav>
     </section>
   </main>

@@ -1,51 +1,54 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-page="terms">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WidgetAI Terms of Use</title>
+  <title>Daily Planner: Work Habits Terms of Use</title>
+  <link rel="icon" href="assets/appicon.png">
   <link rel="stylesheet" href="styles.css">
+  <script src="i18n.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="WidgetAI home">
+    <a class="brand" href="index.html" aria-label="Daily Planner: Work Habits home">
       <img class="brand-icon" src="assets/appicon.png" alt="" width="36" height="36">
-      <span>WidgetAI</span>
+      <span data-i18n="common.brandShort">Daily Planner</span>
     </a>
     <nav class="top-nav" aria-label="Site pages">
-      <a href="index.html#features">Features</a>
-      <a href="index.html#widgets">Widgets</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="support.html">Support</a>
+      <a href="index.html#features" data-i18n="common.features">Features</a>
+      <a href="index.html#widgets" data-i18n="common.widgets">Widgets</a>
+      <a href="privacy.html" data-i18n="common.privacy">Privacy</a>
+      <a href="support.html" data-i18n="common.support">Support</a>
+      <select class="language-select" data-language-select aria-label="Language"></select>
     </nav>
   </header>
 
   <main class="page-shell">
     <section class="page-hero">
-      <img class="page-icon" src="assets/appicon.png" alt="WidgetAI app icon" width="72" height="72">
-      <p class="eyebrow">Terms of Use</p>
-      <h1>WidgetAI uses Apple's Standard EULA.</h1>
-      <p class="section-copy">The app follows Apple's standard license terms for App Store apps.</p>
+      <img class="page-icon" src="assets/appicon.png" alt="Daily Planner app icon" width="72" height="72">
+      <p class="eyebrow" data-i18n="common.terms">Terms of Use</p>
+      <h1 data-i18n="terms.title">Daily Planner: Work Habits uses Apple's Standard EULA.</h1>
+      <p class="section-copy" data-i18n="terms.lede">The app follows Apple's standard license terms for App Store apps.</p>
       <div class="hero-actions">
-        <a class="button primary" href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Open Apple's Standard EULA</a>
+        <a class="button primary" href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" data-i18n="terms.openEula">Open Apple's Standard EULA</a>
       </div>
     </section>
 
     <section class="info-grid compact-grid" aria-label="Terms summary">
       <article class="info-card work-card">
-        <span>License</span>
-        <h2>Standard App Store terms</h2>
-        <p>WidgetAI uses Apple's Standard End User License Agreement for app usage terms.</p>
+        <span data-i18n="terms.licenseLabel">License</span>
+        <h2 data-i18n="terms.licenseTitle">Standard App Store terms</h2>
+        <p data-i18n="terms.licenseText">Daily Planner: Work Habits uses Apple's Standard End User License Agreement for app usage terms.</p>
       </article>
       <article class="info-card routine-card">
-        <span>Purchases</span>
-        <h2>Apple account settings</h2>
-        <p>Subscriptions and purchase management are handled through your Apple ID and App Store settings.</p>
+        <span data-i18n="terms.purchasesLabel">Purchases</span>
+        <h2 data-i18n="terms.purchasesTitle">Apple account settings</h2>
+        <p data-i18n="terms.purchasesText">Subscriptions and purchase management are handled through your Apple ID and App Store settings.</p>
       </article>
       <article class="info-card nutrition-card">
-        <span>Support</span>
-        <h2>Questions</h2>
-        <p>For product or billing support, contact <a href="mailto:widgetai.support@gmail.com">widgetai.support@gmail.com</a>.</p>
+        <span data-i18n="common.support">Support</span>
+        <h2 data-i18n="terms.questionsTitle">Questions</h2>
+        <p><span data-i18n="terms.questionsText">For product or billing support, contact</span> <a href="mailto:widgetai.support@gmail.com">widgetai.support@gmail.com</a>.</p>
       </article>
     </section>
   </main>
